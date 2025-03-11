@@ -1,0 +1,17 @@
+.course-content{
+    width: 100vw;
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.course-name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    font-style: oblique;
+}
+.content{
+    padding: 30PX;
+}

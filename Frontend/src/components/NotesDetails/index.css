@@ -1,0 +1,45 @@
+.notes-detailer-container{
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+.main-heading{
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    align-self: center;
+    font-weight: 800;
+}
+.details{
+    background-color: azure;
+    padding: 30px;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    font-size: 24px;
+}
+.container-notes-details{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.download{
+    background-color: skyblue;
+    border: 0px;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 19px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+}

@@ -1,0 +1,43 @@
+.services-page{
+    background-color: #52504b;
+    height: 100vh;
+    width: 100vw;
+}
+.services-heading{
+    color:  #63ebe6;
+    font-size: 40px;
+    padding: 20px 30px 0px 50px ;
+}
+.services-para{
+    color: white;
+    width: 55%;
+    margin-left: 50px;
+    font-size: 24px;
+}
+.card-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    background-color: #7b8584;
+    width:20%;
+    padding:20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: aliceblue;
+}
+.play-icon{
+    color: #63ebe6;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+}
+.card-heading{
+    color: #33e5e8;
+    font-size: 25px;
+}

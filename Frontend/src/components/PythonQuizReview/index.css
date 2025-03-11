@@ -1,0 +1,51 @@
+.quiz-review-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .question-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .question-topic {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .answer-container {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  .answer-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .correct-answer {
+    color: green;
+  }
+  
+  .user-answer {
+    color: blue;
+  }
+  
+  .correct, .incorrect {
+    font-weight: bold;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+  }
+  

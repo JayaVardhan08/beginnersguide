@@ -1,0 +1,51 @@
+.notes-list{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.notes-header{
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.list-of-notes{
+    width: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+}
+.each-notes{
+  background-color: lightgray;
+  width: 70%;
+  padding:10px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.notes-heading{
+    color: darkcyan;
+    text-decoration: none;
+}
+.add-notes{
+    background-color: skyblue;
+    border: 0px;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 19px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}

@@ -1,0 +1,17 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+}
+.cl-container{
+    margin-left: 250px;
+    width: 70%;
+}
+                   
+.list-of-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
